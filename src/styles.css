@@ -1,0 +1,124 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #fc8019;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 30px;
+    border-radius: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  #hero {
+    background-image: url(/public/pizza5.avif);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    /* text-align: right; */
+  }
+  
+  #hero p {
+    font-size: 1.5em;
+  }
+  
+  button {
+    background-color: #fc8019;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+
+  /* //menu items */
+
+  .menu-items {
+    display: flex;
+    flex-wrap: wrap; /* Ensure items stay in a single row */
+    justify-content: center;
+    
+  }
+  
+  .menu-item {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  /* Adjustments for image */
+  .menu-item img {
+    max-width: 100%;
+  }
+  
+  /* Adjustments for buttons */
+  .menu-item button {
+    margin-top: 10px;
+  }
+
+  .menu-item:hover {
+    transform: translateY(-50px); /* Move the item up by 5 pixels on hover */
+    box-shadow: 0 4px 8px rgba(102, 42, 33, 0.1); /* Add a subtle shadow */
+  }
+  
