@@ -22,7 +22,7 @@ function Landings() {
       </header>
       
       <section id="hero">
-        <h1>Welcome to Pizza HELLO ???</h1>
+        <h1>Welcome to Pizza Delight</h1>
         <p>Order your favorite pizza now!</p>
         <button>Order Now</button>
       </section>
