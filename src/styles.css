@@ -72,6 +72,12 @@ body {
   
   section h2 {
     margin-bottom: 20px;
+    font-family: 'cursive-font', cursive;
+  }
+
+  section h3{
+    font-family: 'cursive-font', cursive;
+    margin-bottom: 20px;
   }
   
   footer {
@@ -117,8 +123,8 @@ body {
     margin-top: 10px;
   }
 
-  .menu-item:hover {
-    transform: translateY(-50px); /* Move the item up by 5 pixels on hover */
-    box-shadow: 0 4px 8px rgba(102, 42, 33, 0.1); /* Add a subtle shadow */
-  }
+  /* .menu-item:hover {
+    transform: translateY(-50px); 
+    box-shadow: 0 4px 8px rgba(102, 42, 33, 0.1); 
+  } */
   
